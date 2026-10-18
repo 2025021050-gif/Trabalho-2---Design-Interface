@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recicla Mundo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="topo-fixo">
+        <header>
+            <img src="img/logo.jfif" alt="Logotipo Recicla Mundo" class="logo" width="70" height="70">
+            <h1>Recicla Mundo</h1>
+            <button type="button" aria-label="Abrir menu navegação" onclick="document.querySelector('nav').classList.toggle('ativo')">☰</button>
+
+        </header>
+        <nav>
+            <a href="#separacao" onclick="document.querySelector('nav').classList.toggle('ativo')">Porque Separar o Lixo?</a>
+            <a href="#pos-separacao" onclick="document.querySelector('nav').classList.toggle('ativo')">Pós Separação</a>
+            <a href="#" onclick="document.querySelector('nav').classList.toggle('ativo')">Impacto do plásticos nos Oceanos</a>
+            <a href="#" onclick="document.querySelector('nav').classList.toggle('ativo')">Compostagem Doméstica</a>
+        </nav>
+    </div>
+    <main>
+        <section id="separacao">        
+            <div class="container">
+                <h2>Porque Separar o Lixo?</h2>
+                <p>A separação de resíduos é o passo mais fundamental para a preservação ambiental e a economia circular. 
+                    Quando misturamos tudo no mesmo cesto, transformamos materiais reutilizáveis em lixo comum, sobrecarregando aterros e desperdiçando recursos valiosos.
+                </p>
+                <p>Reciclar papel evita o abate de árvores, reciclar plástico reduz a extração de petróleo 
+                    e o reaproveitamento de metais diminui a necessidade de mineração intensiva.</p>
+                <p>Materiais orgânicos descartados incorretamente em aterros geram gás metano, um dos principais responsáveis pelo efeito estufa. 
+                        Materiais recicláveis expostos ao meio ambiente levam centenas de anos para se decompor e poluem rios e oceanos.</p>
+                <p>A triagem correta garante renda digna para milhares de catadores e cooperativas de reciclagem, 
+                    além de alimentar indústrias que utilizam matéria-prima reciclada.</p>
+                <p>Pequenas atitudes garantem que o material reciclável chegue limpo as cooperativas.</p>
+                <img src="img/lixeiras.jfif" alt="Lixeiras" class="lixeiras" width="800" height="400">
+        
+                <h3>Vermelho (Plástico):</h3>
+                <p>Garrafas PET, embalagens de detergente, sacolas, tampinhas e potes de alimento. 
+                Dica: Passe uma água rápida para retirar o excesso de sujeira.</p>
+
+                <h3>Azul (Papel):</h3>
+                <p>Caixas de papelão, jornais, revistas, folhas e embalagens cartonadas (Tetra Pak). 
+                Dica: Mantenha o papel seco e dobre as caixas para economizar espaço.</p>
+            
+                <h3>Verde (Vidro):</h3>
+                <p>Garrafas, potes de conserva, frascos de remédio e cacos. 
+                Dica: Embale cacos de vidro em papel jornal ou caixa de papelão para proteger os coletores.</p>              
+            
+                <h3>Amarelo (Metal):</h3>
+                <p>Latas de alumínio, tampas de garrafa, enlatados e folha de alumínio limpa. 
+                Dica: Amasse as latas para otimizar o volume.</p>
+                
+                <h3>Marrom (Orgânico):</h3>
+                <p>Restos de comida, cascas de frutas, pó de café e folhas secas.</p>
+            
+                <img src="img/coleta.webp" alt="Identificação das lixeiras" class="coleta" width="800" height="400" loading="lazy">            
+            </div>
+        </section>
+        <section id="pos-separacao">
+            <div class="container">
+                <h2>Pós Separação</h2>
+                <div class="imag">
+                    <img src="img/passo1.png" alt="Primeiro passo pós coleta" width="220" height="200" loading="lazy">  
+                    <img src="img/passo2.png" alt="Segundo passo pós coleta" width="220" height="200" loading="lazy">
+                    <img src="img/passo3.png" alt="Terceiro passo pós coleta" width="220" height="200" loading="lazy">
+                    <img src="img/passo4.png" alt="Quarto passo pós coleta" width="220" height="200" loading="lazy"> 
+                </div>
+            </div>
+            
+        </section>  
+    </main>
+    <footer>
+        <p>Site em desenvolvimento - Trabalho de Design de Interface - Curso de Análise e Desenvolvimento de Sistemas</p>
+        <p>Aluna: Tayná A.M Garcia</p>
+
+    </footer>
+</body>
+</html>
